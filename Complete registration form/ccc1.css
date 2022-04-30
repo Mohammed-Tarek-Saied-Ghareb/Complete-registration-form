@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image:url(img/foto4.jpg);
+}
+main{ display: flex; justify-content: center; margin-top: 20px;}
+
+main div{ 
+    width: 70%;
+    height: 750px;
+    border:black double 10px;
+    background: linear-gradient(to bottom, #2980b9, #6dd5fa, #ffffff);
+    text-align: center;
+    
+}
+main div h1{
+    text-align: center; 
+    padding: 10px;
+    font-size: 50pt;
+    -webkit-text-stroke-color:blue;
+    -webkit-text-stroke-width:1px;
+    color:black;
+}
+#qqq,#www{
+    font-size: 18pt;
+    border: black 2px solid;
+    background-color: rgb(99, 99, 196);
+    color: white;
+    padding:5px;
+    text-decoration: none;
+}
+main div img{
+    width: 30px;
+    height: 30px;
+}
+main div input{
+    width: 55%;
+    padding: 10px;
+    font-size: 16pt;
+    border-radius: 20px;
+    outline: 0px;
+    margin-bottom: 10px;
+
+}
+main div input:focus{
+    background-color: blue;
+    color: white;
+    font-size: 19pt;
+}
+main div input:valid{
+    border: rgb(4, 212, 4) solid 5px;
+    outline: 0px;
+}
+main div input:invalid{
+    border:red solid 3px;
+    outline: 0px;
+
+
+}
+button{
+    width: 25%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 20pt;
+}
+#nnn{
+    font-size: 15pt;
+}
+@media only screen and (max-width:886px){
+    main div h1{
+        font-size: 46pt;
+        
+    }
+}
+@media only screen and (max-width:828px){
+    #qqq,#www{
+        font-size: 12pt;
+        padding:5px;
+    }
+    main div h1{
+        font-size: 35pt;
+        
+    }
+
+
+}
+
+@media only screen and (max-width:636px){
+    #qqq,#www{
+        font-size: 10pt;
+        padding:5px;
+    }
+    main div h1{
+        font-size: 30pt;
+        
+    }
+    main div{ 
+        width: 80%;
+        
+        
+    }
+
+}
+@media only screen and (max-width:502px){
+    button{
+        width: 36%;
+       
+    }
+    #qqq,#www{
+        font-size: 7pt;
+        padding:5px;
+    }
+    main div h1{
+        font-size: 22pt;
+        
+    }
+    main div{ 
+        width: 90%;
+        
+        
+    }
+
+}
+@media only screen and (max-width:450px){
+    main div input{
+        width: 70%;
+      
+    }
+
+}
+@media only screen and (max-width:348px){
+    #qqq,#www{
+        font-size: 6pt;
+        padding:5px;
+    }
+    main div h1{
+        font-size: 20pt;
+        
+    }
+    main div input{
+        width: 79%;
+      
+    }
+   main label{
+       font-size: 12pt;
+   }
+   #rrr{
+font-size: 8pt;   }
+
+
+}

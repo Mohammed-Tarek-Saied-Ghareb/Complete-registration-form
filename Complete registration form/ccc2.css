@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image:url(img/foto4.jpg);
+}
+#sasa{
+    color:white;
+    text-align: center;
+    font-size: 170pt;
+    -webkit-text-stroke-color:blue;
+    -webkit-text-stroke-width:4px;
+}
+#qaqa{
+    width: 90%;
+    text-align: center;
+    background-color: azure;
+    border: red double 11px;
+    margin: 0 15px;
+    
+}
+#qaqa p{
+    color:black; 
+    font-size: 30pt;
+    padding: 10px;
+    text-align: center;
+    
+
+    
+}
+audio{
+    
+margin-bottom: 15px;
+width: 60%;
+color: blue;
+}
+#zxzx{
+    color: white;
+    font-size: 35pt;
+    text-align: center;
+    -webkit-text-stroke-color:blue;
+    -webkit-text-stroke-width:1px;
+}
+a{
+    font-size: 26pt;
+    color: white;
+    margin-left: 30px;
+    
+}
+#ttt{
+text-align: end;}
+
+@media only screen and (max-width:1458px){
+    #sasa{
+       
+        font-size: 120pt;
+        
+        
+    }
+
+}
+@media only screen and (max-width:1092px){
+    #qaqa p{
+        font-size: 25pt;
+        
+    }
+    #sasa{
+       
+        font-size: 90pt;
+        
+        
+    }
+    #qaqa{
+        width: 90%;
+        text-align: center;
+        background-color: azure;
+        border: red double 11px;
+        margin: 0 0px;
+        
+    }
+
+}
+@media only screen and (max-width:772px){
+    #sasa{
+       
+        font-size: 70pt;
+        
+        
+    }
+    #qaqa p{
+        font-size: 20pt;
+        
+    }
+
+
+}
+@media only screen and (max-width:614px){
+    #qaqa p{
+        font-size: 17pt;
+        
+    }
+    #sasa{
+       
+        font-size: 50pt;
+        
+        
+    }
+    
+
+
+
+}
+@media only screen and (max-width:442px){
+    #sasa{
+       
+        font-size: 35pt;
+        -webkit-text-stroke-color:blue;
+    -webkit-text-stroke-width:0px;
+        
+        
+    }
+    audio{
+    
+        margin-bottom: 15px;
+        width: 80%;
+        color: blue;
+        }
+        #zxzx{
+            color: white;
+            font-size: 30pt;
+            text-align: center;
+            -webkit-text-stroke-color:blue;
+            -webkit-text-stroke-width:1px;
+        }
+}
+
